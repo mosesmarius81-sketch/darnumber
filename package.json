@@ -8,11 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "backend:dev": "echo 'removed'",
-    "backend:build": "echo 'removed'",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
-    "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
-    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
+    "backend:build": "echo 'removed'"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
