@@ -1,0 +1,9 @@
+# pnpm-workspace.yaml
+packages:
+  - "." # your main app (adjust if you have a monorepo)
+
+allowBuilds:
+  "@prisma/engines": true
+  "prisma": true
+  "sharp": true
+  "unrs-resolver": true
