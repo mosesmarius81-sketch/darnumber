@@ -35,7 +35,7 @@ export default function RootLayout({
       >
         <AuthProvider>
           {children}
-          {/* <DeploymentPaused /> */}
+          <DeploymentPaused />
           <Toaster />
         </AuthProvider>
       </body>
